@@ -1,4 +1,4 @@
 # World_Weather_Analysis
 
-##Purpose of World_Weather_Analysis repository
+## Purpose of World_Weather_Analysis repository
 To modify the PlanMyTrip app which we make in this module with few changes.Like, Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data,I sent request to OpenWeatherMap with the help of python get method and get json file and with the help of json file I retrieve the current weather description for each city. Then, i created a new DataFrame containing the updated weather data.Then, I Used input statements to retrieve customer weather preferences, then used those preferences to identify potential travel destinations and nearby hotels. Then, make a heatmap for those destinations on a marker layer map with pop-up markers.From the list of potential travel destinations, the user will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, I created a travel route between the four cities as well as a marker layer map.
